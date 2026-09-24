@@ -1,0 +1,14 @@
+{
+  "name": "abi-decode",
+  "version": "0.1.0",
+  "description": "Decode static ABI-encoded arguments from calldata or return data",
+  "type": "module",
+  "bin": { "abi-decode": "./src/cli.mjs" },
+  "exports": "./src/abi.mjs",
+  "files": ["src"],
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node src/cli.mjs", "test": "node --test test/" },
+  "keywords": ["abi", "ethereum", "evm", "decoder", "calldata"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/yuniyunanie250-lgtm/abi-decode.git" }
+}
